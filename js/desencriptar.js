@@ -5,7 +5,7 @@ var mensaje1 = document.querySelector(".mensaje-1");
 var mensaje2 = document.querySelector(".mensaje-2");
 var mensajeCaja = document.querySelector(".caja-encriptacion");
 
-var areaDesencriptar = document.querySelector("Texto");
+var areaDesencriptar = document.querySelector("#Texto");
 var imgFondo = document.querySelector(".fondo-caja");
 var validar = 0;
 
