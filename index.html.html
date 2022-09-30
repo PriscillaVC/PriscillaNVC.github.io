@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Priscilla Vargas">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Encriptador</title>
+		<link rel="stylesheet" type="text/css" href="css/style-encrip.css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=PT+Serif&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+		<header>
+			<div class="encabezado">
+				<h1 id="titulo">Encriptador de texto</h1>
+                <img class="logo" src="imagenes/Logo.png" alt="logo Alura">
+			</div>
+		</header>
+
+        <main>
+            <section class="agregar-texto" id="agregando">
+                <div>
+                    <textarea class="input-texto" id="Texto" cols="30" rows="10" placeholder="Ingrese el texto aquí..."></textarea>
+                    <img src="imagenes/exclamation.png" alt="exclamación">
+                    <p>Solo ingresar letras minusculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <br>
+                    <br>
+                    <button id="encriptador" class="boton-encriptar">Encriptar mensaje</button>
+                    <button id="desencriptador" class="boton-desencriptar">Desencriptar mensaje</button>
+                </div> 
+            </section>
+            <section class="texto-encriptado">
+                <div>
+                <textarea class="caja-encriptacion" id="encriptacion" cols="30" rows="10"></textarea>
+                    <h2>
+                        <img src="imagenes/Muñeco.png" class="fondo-caja">
+                        <p class="mensaje-1">
+                        Ningún mensaje fue encontrado
+                        </p>
+                        <p class="mensaje-2">
+                        Ingresa el texto que desees encriptar o desencriptar.
+                        </p>
+                    </h2>
+
+                    <button id="copiar" class="boton-copiar">Copiar mensaje</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="copyright">&copy Copyright Priscilla Vargas| Alura-2022</p>
+        </footer>
+        <script src="js/copy.js"></script>
+        <script src="js/encriptar.js"></script>
+        <script src="js/desencriptar.js"></script>
+    </body>
+</html>

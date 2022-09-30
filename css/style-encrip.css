@@ -1,0 +1,209 @@
+body{
+    font-family: 'PT Serif', serif;
+    background:linear-gradient(#f7e2a5,#a7793d,#914901)
+}
+
+ .encabezado{
+    padding: 10px 0px;
+ }
+
+#titulo{
+    font-family: 'Bungee Spice', cursive;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: top;
+    text-decoration:underline;
+    color: #0A3871;
+    padding-top: 10px;
+    margin-bottom: -10;
+}
+.logo{
+    margin-left: 15%;
+}
+main{
+    width: 1000px;
+    margin: auto;
+    padding: 30px 50px 50px 50px;
+}
+#agregando{
+    background-color:#f3d58e;
+    border-radius: 10px;
+    
+}
+.agregar-texto{
+    display: inline-block;
+    width: 60%;
+    height: 400px;
+    padding-left: 30px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border:outset;
+    border-color: #804000;
+}
+ .input-texto{ /*caja de texto 1*/
+    display: inline-block;
+    width: 90%;
+    height: 80%;
+    resize: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 86%;
+    color: black;
+    box-sizing: border-box;
+    border:none;
+    background-color: transparent;
+    outline: none;
+    padding: 25px 0px  0px 25px
+}
+::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 150%;
+    color:#0A3871; 
+}
+.agregar-texto p { /*primera seccion, p = solo minusculas*/
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: black;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.agregar-texto img {
+    padding: 0px 10px 6px 50px;
+    vertical-align: bottom;
+}
+
+.boton-encriptar {
+    display: inline-flex;
+    margin: 0 10%;
+    width: 150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    padding: 4px 45px;
+    color: #fff;
+    background: radial-gradient(#bd8e5d, #3d2207);
+    border-radius: 24px;
+    border-color: #2e1700;
+    border-style:solid; 
+    cursor: pointer;
+}
+.boton-desencriptar {
+    display: inline-flex;
+    margin: 0 10%;
+    width: 150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    padding: 4px 31px;
+    color: #fff;
+    background: radial-gradient(#bd8e5d, #3d2207);
+    border-radius: 24px;
+    border-color: #2e1700;
+    border-style:solid;
+    cursor: pointer;
+}
+.texto-encriptado {
+    display: inline-block;
+    width: 30%;
+    height: 400px;
+    margin-left: 50px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border:outset;
+    border-color: #804000;
+    background-color: #f3d58e;
+    border-radius: 10px;
+}
+.mensaje-1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+.mensaje-2 {
+    font-family: 'Inter';
+    font-style:normal;
+    font-weight:bold;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #343A40;
+}
+.caja-encriptacion {
+    height: 50px; 
+    display: none;
+    resize: none;
+    height: 265px;
+    width: 250px;
+    margin: 25px;
+    padding-top: 10px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #0A3871;
+}
+
+.fondo-caja {
+    width: 80%;
+    height: 80%;
+    margin-left: 29.5px;
+    /*display: none;*/
+}
+.boton-copiar {
+
+    display: none;
+    margin: 0px 0px 0px 73px;
+    vertical-align: bottom;
+    width: 150px;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 4px 25px;
+    color: white;
+    background: radial-gradient(#699bd8,#0A3871); 
+    border-radius: 24px;
+    border-color: #001c3d;
+    cursor: pointer;
+    align-content: center;
+
+} 
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: inline-flex;
+
+}
+footer {
+    text-align: center;
+}
+
+.copyright {
+    font-weight: bold;
+    color: #c9c9c9;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
